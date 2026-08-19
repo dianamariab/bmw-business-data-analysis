@@ -59,7 +59,7 @@ The dashboard includes:
 - model distribution by vehicle category
 - geographical information about company locations
 - filters for brand and country
-
+![Power BI Dashboard](images/power-bi-dashboard.png.jpeg)
 ### Forecasting
 
 The project also includes a time series analysis of BMW Group's stock closing prices.
