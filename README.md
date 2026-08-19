@@ -12,7 +12,7 @@ The project combines publicly available BMW Group data with simulated records cr
 
 ## Project Overview
 
-The analysis was divided into several parts, starting with the organization of the data and continuing with statistical analysis, forecasting and visualization.
+The project was divided into several parts, starting with the organization and preparation of the data and continuing with statistical analysis, visualization, forecasting and decision analysis.
 
 ### Database Management
 
@@ -29,7 +29,7 @@ The database contains information about:
 - financial indicators
 - stock prices
 
-Relationships between the tables were created in Access, followed by several queries used to analyze sales, transaction values and employee information.
+Relationships between the tables were created in Access, followed by several queries used to explore sales, transaction values and employee information.
 
 ### Data Cleaning and Analysis
 
@@ -48,7 +48,7 @@ The financial analysis included indicators such as revenue, EBITDA, net profit, 
 
 ### Power BI Dashboard
 
-An interactive Power BI dashboard was created to summarize the main results of the analysis.
+An interactive Power BI dashboard was created to summarize and visualize different aspects of the data.
 
 The dashboard includes:
 
@@ -59,7 +59,9 @@ The dashboard includes:
 - model distribution by vehicle category
 - geographical information about company locations
 - filters for brand and country
-![Power BI Dashboard](images/power-bi-dashboard.png.jpeg)
+
+![Power BI Dashboard](images/power-bi-dashboard.png)
+
 ### Forecasting
 
 The project also includes a time series analysis of BMW Group's stock closing prices.
@@ -72,21 +74,51 @@ Several forecasting methods were compared:
 - linear regression
 - Holt-Winters
 
-The predicted values were compared with actual stock prices in order to evaluate the performance of the different methods.
+The predicted values were compared with actual stock prices to evaluate the results of the different methods.
 
 ### Decision Analysis
 
 A decision-making problem was analyzed using the TOPSIS method.
 
-Three strategic alternatives were compared based on criteria related to operational capacity, estimated costs and strategic impact. The purpose of this analysis was to identify the most suitable alternative based on several criteria rather than a single indicator.
+Three strategic alternatives were compared based on several criteria related to operational capacity, estimated costs and strategic impact. The purpose was to compare the alternatives using multiple criteria rather than relying on a single indicator.
+
+## Repository Structure
+
+```text
+bmw-business-data-analysis/
+│
+├── analysis/
+│   ├── descriptive-statistics.xlsx
+│   ├── forecasting.xls
+│   └── topsis-analysis.xlsx
+│
+├── data/
+│   └── Bazadate_SSD.xlsx
+│
+├── database/
+│   └── ProiectSSD_BD.accdb
+│
+├── images/
+│   └── power-bi-dashboard.png
+│
+├── power-bi/
+│   └── Dashboard_SSD.pbix
+│
+├── report/
+│   └── bmw-business-data-analysis-report.pdf
+│
+└── README.md
+```
+
+The repository contains the files used for the different parts of the project. The Excel files include the descriptive analysis, forecasting and TOPSIS analysis, while the Access database contains the relational database implementation and the Power BI file contains the interactive dashboard.
+
+The complete academic report is also included for additional details about the methodology and results.
 
 ## What I Learned
 
-This project helped me understand how different data analysis tools can be used together in the same workflow.
+This project gave me the opportunity to work with different stages of a data analysis process, from organizing and checking the data to analyzing and visualizing the results.
 
-I gained practical experience in organizing relational data, preparing and analyzing datasets in Excel, creating queries in Access, building interactive reports in Power BI and applying basic forecasting and decision-making methods.
-
-It also helped me understand how raw data can be transformed into information that can support business decisions.
+I gained practical experience with Excel, Access and Power BI, as well as with forecasting and multi-criteria decision analysis. It also helped me understand how different tools can be combined to explore data and support business decisions.
 
 ## Project Context
 
